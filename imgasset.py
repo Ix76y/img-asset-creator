@@ -5,8 +5,8 @@ import os
 import glob
 import subprocess
 import pkg_resources
-import helper.imgasset_helper as h
-import helper.path_helper as ph
+import etc.imgasset_helper as h
+import etc.path_helper as ph
 
 required = {'pillow'}
 installed = {pkg.key for pkg in pkg_resources.working_set}
