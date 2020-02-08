@@ -1,0 +1,11 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore Python cache
+__pycache__
+
+# Ignore folder output
+output
+
