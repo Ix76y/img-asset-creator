@@ -3,7 +3,7 @@ Creating image assets for iOS and Android Apps with Python3 from the command-lin
 
 I build this script to easily create image assets for iOS and Android Apps. You can pass an image or a folder of images to the script, define which size the images should be and for which platform and it will scale the images and save them.
 
-The script will handle the correct scaling and naming for iOS (e.g.: img\@3x.jpg) and Android.
+The script will handle the correct scaling and naming for iOS (e.g. img\@3x.jpg) and Android.
 
 ## Getting Started
 
