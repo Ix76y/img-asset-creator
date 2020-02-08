@@ -1,7 +1,9 @@
 # img-asset-creator
-Creating image assets for iOS and Android Apps with Python3.
+Creating image assets for iOS and Android Apps with Python3 from the command-line.
 
-I build this script to easily create image assets for iOS and Android Apps. You can pass an Image or a folder of images to the script, define which size the images should be and for which platform and it will scale the images accordingly and save them.
+I build this script to easily create image assets for iOS and Android Apps. You can pass an image or a folder of images to the script, define which size the images should be and for which platform and it will scale the images and save them.
+
+The script will handle the correct scaling and naming for iOS (e.g.: img\@3x.jpg) and Android.
 
 ## Getting Started
 
@@ -37,7 +39,7 @@ python3 imgasset.py -iOS -w 1200 pineapple.png
   |-- pineapple@3x.png
 ```
 
-If you have a folder called <code>input<code> of images and you want them all for **Android** with a **height** of **1800px** for xxxhdpi then you can run the following command.
+If you have a folder called <code>input</code> of images and you want them all for **Android** with a **height** of **1800px** for xxxhdpi then you can run the following command.
 ```
 python3 imgasset.py -android -h 1800 /input
 
