@@ -5,7 +5,12 @@
 
 # Ignore Python cache
 __pycache__
+*.pyc
 
 # Ignore folder output
 output
+
+# Ignore MacOS specific files
+.DS_Store
+
 
