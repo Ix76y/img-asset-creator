@@ -24,7 +24,7 @@ Options Short / Long           | Type | Description                             
 -android                       |      | Using Android naming convetions                      | Out: <img_name>.jpg
 -o                             | STR  | Output Folder                                        | -o ~/Desktop
 -w                             | NUM  | Define Width in px for highest quality               | -w 300
--h                             | NUM  | Define Height in px for highest quality              | -h 300
+-y                             | NUM  | Define Height in px for highest quality              | -y 300
 -q                             | NUM  | Setting the quality of the image in percent          | -q 85
 
 Example Usage: python imgasset.py -iOS myImage.jpg

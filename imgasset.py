@@ -66,7 +66,7 @@ def run_asset_creation(argv):
     for idx,v in enumerate(argv):
         if v == "-w":
             width = int(argv[idx+1])
-        elif v == "-h":
+        elif v == "-y":
             height = int(argv[idx+1])
         elif v == "-q":
             quality = int(argv[idx+1])
